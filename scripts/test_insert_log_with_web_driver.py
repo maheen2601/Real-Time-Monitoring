@@ -134,7 +134,7 @@ def main():
 
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
-    service = Service()
+    service = Service('./chromedriver.exe')
 
     # Open Chrome once and keep session alive
     driver = webdriver.Chrome(service=service, options=options)
