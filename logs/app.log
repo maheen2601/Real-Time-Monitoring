@@ -1,0 +1,743 @@
+2025-06-17 06:52:13,632 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 06:53:37,351 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 06:54:46,369 - ERROR - Error: 'NoneType' object has no attribute 'text'
+2025-06-17 07:13:10,052 - ERROR - Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff726555bc5]
+	(No symbol) [0x0x7ff72657ac04]
+	(No symbol) [0x0x7ff7265f0195]
+	(No symbol) [0x0x7ff7266106cd]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 07:15:59,290 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 07:21:58,617 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 07:25:44,255 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 07:27:40,602 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 22:52:35,103 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 22:57:17,468 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 22:59:33,173 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-17 23:02:52,912 - ERROR - Error: 'NoneType' object has no attribute 'text'
+2025-06-18 11:13:40,601 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 11:55:03,123 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:02:00,883 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:04:10,120 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:07:28,919 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:11:03,396 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:12:45,252 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:15:10,665 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:18:41,551 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 12:41:21,843 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 13:02:42,671 - INFO - \U0001f680 Starting fetch_user_data.py
+2025-06-18 13:02:50,013 - INFO - \U0001f310 GA4 Realtime opened. Waiting 60 seconds for manual login...
+2025-06-18 13:03:50,049 - INFO - \u2705 Extracted user count: 45
+2025-06-18 13:03:50,090 - INFO - \u2705 Inserted user count into DB: 45
+2025-06-18 13:03:52,258 - INFO - \u2705 Browser closed.
+2025-06-18 13:05:04,081 - INFO - \U0001f680 Starting fetch_user_data.py
+2025-06-18 13:05:11,382 - INFO - \U0001f310 GA4 Realtime opened. Waiting 60 seconds for manual login...
+2025-06-18 13:06:12,973 - INFO - \u2705 Extracted user count: 34
+2025-06-18 13:06:13,025 - INFO - \u2705 Inserted user count into DB: 34
+2025-06-18 13:06:15,231 - INFO - \u2705 Browser closed.
+2025-06-18 13:06:41,789 - INFO - \U0001f680 Starting fetch_user_data.py
+2025-06-18 13:06:48,801 - INFO - \U0001f310 GA4 Realtime opened. Waiting 60 seconds for manual login...
+2025-06-18 13:07:48,867 - INFO - \u2705 Extracted user count: 46
+2025-06-18 13:07:49,031 - INFO - \u2705 Inserted user count into DB: 46
+2025-06-18 13:07:51,163 - INFO - \u2705 Browser closed.
+2025-06-18 13:42:22,551 - INFO - \U0001f680 Starting fetch_user_data.py
+2025-06-18 13:42:26,931 - INFO - \U0001f310 GA4 Realtime opened. Waiting 60 seconds for manual login...
+2025-06-18 13:43:27,007 - INFO - \u2705 Extracted user count: 53
+2025-06-18 13:43:27,054 - INFO - \u2705 Inserted user count into DB: 53
+2025-06-18 13:43:29,203 - INFO - \u2705 Browser closed.
+2025-06-18 13:47:38,510 - INFO - \U0001f680 Starting fetch_user_data.py (continuous mode)
+2025-06-18 13:47:48,448 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60s for manual login...
+2025-06-18 13:48:48,487 - INFO - \u2705 Extracted user count: 54
+2025-06-18 13:48:48,529 - INFO - \u2705 Inserted user count into DB: 54
+2025-06-18 13:48:50,907 - INFO - \u2705 Browser closed. Waiting for next interval...
+2025-06-18 13:49:58,941 - INFO - \U0001f680 Starting fetch_user_data.py (continuous mode)
+2025-06-18 13:50:08,853 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60s for manual login...
+2025-06-18 13:51:08,884 - INFO - \u2705 Extracted user count: 52
+2025-06-18 13:51:08,925 - INFO - \u2705 Inserted user count into DB: 52
+2025-06-18 13:51:11,048 - INFO - \u2705 Browser closed. Waiting for next interval...
+2025-06-18 13:56:15,160 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60s for manual login...
+2025-06-18 13:56:30,017 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1aae8553af29f51a3053643c260bc171
+2025-06-18 13:56:33,476 - INFO - \U0001f7e2 Starting continuous GA4 monitoring...
+2025-06-18 13:56:38,508 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60 seconds for manual login...
+2025-06-18 13:57:10,736 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/64cf3d8584d62b4225e65f59bf1b5565
+2025-06-18 13:57:14,093 - INFO - \U0001f7e2 Starting continuous GA4 monitoring...
+2025-06-18 13:57:18,259 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60 seconds for manual login...
+2025-06-18 13:57:24,296 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ad8129d7f5f7a3c7e45399b70f84f4d4
+2025-06-18 13:57:28,490 - INFO - \U0001f7e2 Starting continuous GA4 monitoring...
+2025-06-18 13:57:32,492 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60 seconds for manual login...
+2025-06-18 13:58:32,524 - INFO - \u2705 Extracted user count: 61
+2025-06-18 13:58:32,564 - INFO - \u2705 Inserted user count into DB: 61
+2025-06-18 13:58:32,564 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:03:32,605 - INFO - \u2705 Extracted user count: 52
+2025-06-18 14:03:32,756 - INFO - \u2705 Inserted user count into DB: 52
+2025-06-18 14:03:32,756 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:08:32,790 - INFO - \u2705 Extracted user count: 55
+2025-06-18 14:08:32,829 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 14:08:32,829 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:13:32,876 - INFO - \u2705 Extracted user count: 52
+2025-06-18 14:13:32,914 - INFO - \u2705 Inserted user count into DB: 52
+2025-06-18 14:13:32,914 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:18:32,943 - INFO - \u2705 Extracted user count: 50
+2025-06-18 14:18:32,982 - INFO - \u2705 Inserted user count into DB: 50
+2025-06-18 14:18:32,982 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:23:33,029 - INFO - \u2705 Extracted user count: 51
+2025-06-18 14:23:33,068 - INFO - \u2705 Inserted user count into DB: 51
+2025-06-18 14:23:33,068 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:28:33,110 - INFO - \u2705 Extracted user count: 51
+2025-06-18 14:28:33,276 - INFO - \u2705 Inserted user count into DB: 51
+2025-06-18 14:28:33,276 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:33:33,296 - INFO - \u2705 Extracted user count: 58
+2025-06-18 14:33:33,456 - INFO - \u2705 Inserted user count into DB: 58
+2025-06-18 14:33:33,456 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:38:33,499 - INFO - \u2705 Extracted user count: 55
+2025-06-18 14:38:33,646 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 14:38:33,646 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:43:33,679 - INFO - \u2705 Extracted user count: 55
+2025-06-18 14:43:33,716 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 14:43:33,716 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:48:33,765 - INFO - \u2705 Extracted user count: 55
+2025-06-18 14:48:33,915 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 14:48:33,915 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:53:33,936 - INFO - \u2705 Extracted user count: 55
+2025-06-18 14:53:33,975 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 14:53:33,975 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 14:58:33,996 - INFO - \u2705 Extracted user count: 55
+2025-06-18 14:58:34,146 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 14:58:34,146 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:03:34,205 - INFO - \u2705 Extracted user count: 55
+2025-06-18 15:03:34,260 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 15:03:34,260 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:08:34,280 - INFO - \u2705 Extracted user count: 55
+2025-06-18 15:08:34,425 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 15:08:34,425 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:13:34,442 - INFO - \u2705 Extracted user count: 55
+2025-06-18 15:13:34,620 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 15:13:34,620 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:18:34,655 - INFO - \u2705 Extracted user count: 55
+2025-06-18 15:18:34,709 - INFO - \u2705 Inserted user count into DB: 55
+2025-06-18 15:18:34,709 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:23:34,752 - INFO - \u2705 Extracted user count: 56
+2025-06-18 15:23:34,791 - INFO - \u2705 Inserted user count into DB: 56
+2025-06-18 15:23:34,791 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:28:34,821 - INFO - \u2705 Extracted user count: 62
+2025-06-18 15:28:34,859 - INFO - \u2705 Inserted user count into DB: 62
+2025-06-18 15:28:34,859 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:33:34,916 - INFO - \u2705 Extracted user count: 62
+2025-06-18 15:33:34,954 - INFO - \u2705 Inserted user count into DB: 62
+2025-06-18 15:33:34,955 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:38:34,983 - INFO - \u2705 Extracted user count: 62
+2025-06-18 15:38:35,022 - INFO - \u2705 Inserted user count into DB: 62
+2025-06-18 15:38:35,022 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:43:35,040 - INFO - \u2705 Extracted user count: 62
+2025-06-18 15:43:35,080 - INFO - \u2705 Inserted user count into DB: 62
+2025-06-18 15:43:35,080 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:48:35,238 - INFO - \u2705 Extracted user count: 67
+2025-06-18 15:48:35,279 - INFO - \u2705 Inserted user count into DB: 67
+2025-06-18 15:48:35,279 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:53:35,313 - INFO - \u2705 Extracted user count: 74
+2025-06-18 15:53:35,349 - INFO - \u2705 Inserted user count into DB: 74
+2025-06-18 15:53:35,349 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 15:58:35,385 - INFO - \u2705 Extracted user count: 77
+2025-06-18 15:58:35,557 - INFO - \u2705 Inserted user count into DB: 77
+2025-06-18 15:58:35,557 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:03:35,591 - INFO - \u2705 Extracted user count: 86
+2025-06-18 16:03:35,629 - INFO - \u2705 Inserted user count into DB: 86
+2025-06-18 16:03:35,629 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:08:35,655 - INFO - \u2705 Extracted user count: 85
+2025-06-18 16:08:35,693 - INFO - \u2705 Inserted user count into DB: 85
+2025-06-18 16:08:35,693 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:13:35,728 - INFO - \u2705 Extracted user count: 95
+2025-06-18 16:13:35,766 - INFO - \u2705 Inserted user count into DB: 95
+2025-06-18 16:13:35,766 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:18:35,801 - INFO - \u2705 Extracted user count: 85
+2025-06-18 16:18:35,948 - INFO - \u2705 Inserted user count into DB: 85
+2025-06-18 16:18:35,948 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:23:35,998 - INFO - \u2705 Extracted user count: 85
+2025-06-18 16:23:36,037 - INFO - \u2705 Inserted user count into DB: 85
+2025-06-18 16:23:36,037 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:28:36,064 - INFO - \u2705 Extracted user count: 85
+2025-06-18 16:28:36,102 - INFO - \u2705 Inserted user count into DB: 85
+2025-06-18 16:28:36,102 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:35:11,547 - ERROR - \u274c Script crashed: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569c0c]
+	(No symbol) [0x0x7ff7265b043f]
+	(No symbol) [0x0x7ff7265e8532]
+	(No symbol) [0x0x7ff7265e2f5c]
+	(No symbol) [0x0x7ff7265e2039]
+	(No symbol) [0x0x7ff726535fc5]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	(No symbol) [0x0x7ff726535036]
+	GetHandleVerifier [0x0x7ff726b972f8+4012040]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
+2025-06-18 16:35:13,568 - INFO - \U0001f534 Browser closed. Monitoring stopped.
+2025-06-18 16:52:06,473 - INFO - \U0001f7e2 Starting continuous GA4 monitoring...
+2025-06-18 16:52:14,450 - INFO - \U0001f310 GA4 Realtime URL opened. Waiting 60 seconds for manual login...
+2025-06-18 16:53:14,555 - INFO - \u2705 Extracted user count: 88
+2025-06-18 16:53:14,599 - INFO - \u2705 Inserted user count into DB: 88
+2025-06-18 16:53:14,599 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 16:58:14,697 - INFO - \u2705 Extracted user count: 91
+2025-06-18 16:58:14,771 - INFO - \u2705 Inserted user count into DB: 91
+2025-06-18 16:58:14,772 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:03:14,822 - INFO - \u2705 Extracted user count: 101
+2025-06-18 17:03:14,994 - INFO - \u2705 Inserted user count into DB: 101
+2025-06-18 17:03:14,994 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:08:15,057 - INFO - \u2705 Extracted user count: 95
+2025-06-18 17:08:15,105 - INFO - \u2705 Inserted user count into DB: 95
+2025-06-18 17:08:15,105 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:13:15,141 - INFO - \u2705 Extracted user count: 96
+2025-06-18 17:13:15,179 - INFO - \u2705 Inserted user count into DB: 96
+2025-06-18 17:13:15,179 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:18:15,204 - INFO - \u2705 Extracted user count: 96
+2025-06-18 17:18:15,242 - INFO - \u2705 Inserted user count into DB: 96
+2025-06-18 17:18:15,242 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:23:15,271 - INFO - \u2705 Extracted user count: 96
+2025-06-18 17:23:15,309 - INFO - \u2705 Inserted user count into DB: 96
+2025-06-18 17:23:15,309 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:28:15,341 - INFO - \u2705 Extracted user count: 96
+2025-06-18 17:28:15,375 - INFO - \u2705 Inserted user count into DB: 96
+2025-06-18 17:28:15,375 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:33:15,412 - INFO - \u2705 Extracted user count: 96
+2025-06-18 17:33:15,452 - INFO - \u2705 Inserted user count into DB: 96
+2025-06-18 17:33:15,452 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:38:15,480 - INFO - \u2705 Extracted user count: 99
+2025-06-18 17:38:15,518 - INFO - \u2705 Inserted user count into DB: 99
+2025-06-18 17:38:15,518 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:43:15,580 - INFO - \u2705 Extracted user count: 98
+2025-06-18 17:43:15,620 - INFO - \u2705 Inserted user count into DB: 98
+2025-06-18 17:43:15,620 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:48:15,663 - INFO - \u2705 Extracted user count: 101
+2025-06-18 17:48:15,814 - INFO - \u2705 Inserted user count into DB: 101
+2025-06-18 17:48:15,814 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:53:15,855 - INFO - \u2705 Extracted user count: 91
+2025-06-18 17:53:15,895 - INFO - \u2705 Inserted user count into DB: 91
+2025-06-18 17:53:15,895 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 17:58:15,956 - INFO - \u2705 Extracted user count: 88
+2025-06-18 17:58:16,100 - INFO - \u2705 Inserted user count into DB: 88
+2025-06-18 17:58:16,100 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:03:16,143 - INFO - \u2705 Extracted user count: 95
+2025-06-18 18:03:16,181 - INFO - \u2705 Inserted user count into DB: 95
+2025-06-18 18:03:16,181 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:08:16,223 - INFO - \u2705 Extracted user count: 88
+2025-06-18 18:08:16,378 - INFO - \u2705 Inserted user count into DB: 88
+2025-06-18 18:08:16,378 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:13:16,407 - INFO - \u2705 Extracted user count: 90
+2025-06-18 18:13:16,448 - INFO - \u2705 Inserted user count into DB: 90
+2025-06-18 18:13:16,448 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:18:16,493 - INFO - \u2705 Extracted user count: 90
+2025-06-18 18:18:16,532 - INFO - \u2705 Inserted user count into DB: 90
+2025-06-18 18:18:16,532 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:23:16,601 - INFO - \u2705 Extracted user count: 90
+2025-06-18 18:23:16,640 - INFO - \u2705 Inserted user count into DB: 90
+2025-06-18 18:23:16,640 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:28:16,660 - INFO - \u2705 Extracted user count: 90
+2025-06-18 18:28:16,697 - INFO - \u2705 Inserted user count into DB: 90
+2025-06-18 18:28:16,697 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:28:51,996 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-tab-group-2-label-0"]/span[2]/span[1]/div/ga-viz-container/ga-metric-tab/div/div[2]/div/span"}
+  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7267d6f65+78965]
+	GetHandleVerifier [0x0x7ff7267d6fc0+79056]
+	(No symbol) [0x0x7ff726569dda]
+	(No symbol) [0x0x7ff7265c02ea]
+	(No symbol) [0x0x7ff7265c059c]
+	(No symbol) [0x0x7ff726613f37]
+	(No symbol) [0x0x7ff7265e86af]
+	(No symbol) [0x0x7ff726610dbe]
+	(No symbol) [0x0x7ff7265e8443]
+	(No symbol) [0x0x7ff7265b1311]
+	(No symbol) [0x0x7ff7265b20a3]
+	GetHandleVerifier [0x0x7ff726a8e26d+2926461]
+	GetHandleVerifier [0x0x7ff726a88993+2903715]
+	GetHandleVerifier [0x0x7ff726aa6aed+3026941]
+	GetHandleVerifier [0x0x7ff7267f16fe+187406]
+	GetHandleVerifier [0x0x7ff7267f96ef+220159]
+	GetHandleVerifier [0x0x7ff7267dfaf4+114692]
+	GetHandleVerifier [0x0x7ff7267dfca9+115129]
+	GetHandleVerifier [0x0x7ff7267c64d8+10728]
+	BaseThreadInitThunk [0x0x7ff80ad87374+20]
+	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
+
