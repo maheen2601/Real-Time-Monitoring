@@ -741,3 +741,18 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ff80ad87374+20]
 	RtlUserThreadStart [0x0x7ff80c6dcc91+33]
 
+2025-06-18 18:33:16,736 - INFO - \u2705 Extracted user count: 90
+2025-06-18 18:33:16,927 - INFO - \u2705 Inserted user count into DB: 90
+2025-06-18 18:33:16,927 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:38:16,962 - INFO - \u2705 Extracted user count: 97
+2025-06-18 18:38:17,002 - INFO - \u2705 Inserted user count into DB: 97
+2025-06-18 18:38:17,002 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:43:17,048 - INFO - \u2705 Extracted user count: 96
+2025-06-18 18:43:17,086 - INFO - \u2705 Inserted user count into DB: 96
+2025-06-18 18:43:17,086 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:48:17,149 - INFO - \u2705 Extracted user count: 99
+2025-06-18 18:48:17,321 - INFO - \u2705 Inserted user count into DB: 99
+2025-06-18 18:48:17,321 - INFO - \u23f3 Sleeping for 5 minutes...
+2025-06-18 18:53:17,349 - INFO - \u2705 Extracted user count: 95
+2025-06-18 18:53:17,397 - INFO - \u2705 Inserted user count into DB: 95
+2025-06-18 18:53:17,397 - INFO - \u23f3 Sleeping for 5 minutes...
