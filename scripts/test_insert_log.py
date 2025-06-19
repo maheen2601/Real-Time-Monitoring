@@ -137,7 +137,7 @@ def main():
     service = Service()
 
     # Open Chrome once and keep session alive
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome( options=options)
 
     try:
         driver.get("https://analytics.google.com/analytics/web/#/p399777971/realtime/overview")
