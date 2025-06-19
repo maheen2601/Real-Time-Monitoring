@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python script
-        run: python test_insert_log.py
+        run: python scripts/test_insert_log.py
         env:
           DB_NAME: ${{ secrets.DB_NAME }}
           DB_USER: ${{ secrets.DB_USER }}
