@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import psycopg2
 from datetime import datetime, timedelta
+from check_and_send_alerts import check_thresholds
 
 
 # Load environment variables
@@ -64,32 +65,74 @@ def calculate_daily_threshold():
     cur = conn.cursor()
     today = datetime.now().date()
 
-    # Skip if already inserted
+    # Check if today's threshold is already recorded
     cur.execute("SELECT 1 FROM daily_thresholds WHERE date = %s", (today,))
     if cur.fetchone():
+        logging.info(f"ℹ️ Daily threshold already exists for {today}")
         cur.close()
         conn.close()
         return
 
+    # Get today's min and max from user_activity_log
     cur.execute("""
         SELECT 
-            MAX(active_users),
             MIN(active_users),
-            AVG(active_users)
+            MAX(active_users),
+            AVG(active_users)    
         FROM user_activity_log
         WHERE DATE(timestamp) = %s
     """, (today,))
     result = cur.fetchone()
 
-    if result and result[0] is not None:
+    if result and result[0] is not None and result[1] is not None:
+        daily_low, daily_high = result
         cur.execute("""
             INSERT INTO daily_thresholds (date, daily_high, daily_low, daily_avg)
             VALUES (%s, %s, %s, %s)
-        """, (today, *result))
+        """, (today, daily_low, daily_high))
         conn.commit()
-        logging.info(f"✅ Inserted daily threshold for {today}")
+        logging.info(f"✅ Inserted daily threshold for {today}: low={daily_low}, high={daily_high}")
+    else:
+        logging.warning(f"⚠️ No user activity found for {today}")
+
     cur.close()
     conn.close()
+
+
+
+# def calculate_daily_threshold():
+#     conn = connect_db()
+#     cur = conn.cursor()
+#     today = datetime.now().date()
+
+#     # Skip if already inserted
+#     cur.execute("SELECT 1 FROM daily_thresholds WHERE date = %s", (today,))
+#     if cur.fetchone():
+#         cur.close()
+#         conn.close()
+#         return
+
+#     # Find the max, min, and average from today's data in user_activity_log
+#     cur.execute("""
+#         SELECT 
+#             MAX(active_users),
+#             MIN(active_users),
+#             AVG(active_users)
+#         FROM user_activity_log
+#         WHERE DATE(timestamp) = %s
+#     """, (today,))
+#     result = cur.fetchone()
+
+#     if result and result[0] is not None:
+#         cur.execute("""
+#             INSERT INTO daily_thresholds (date, daily_high, daily_low, daily_avg)
+#             VALUES (%s, %s, %s, %s)
+#         """, (today, *result))
+#         conn.commit()
+#         logging.info(f"✅ Inserted daily threshold for {today}")
+
+#     cur.close()
+#     conn.close()
 
 def calculate_weekly_threshold():
     conn = connect_db()
@@ -107,17 +150,30 @@ def calculate_weekly_threshold():
         return
 
     cur.execute("""
-        SELECT MAX(active_users), MIN(active_users)
-        FROM user_activity_log
-        WHERE DATE(timestamp) BETWEEN %s AND %s
+        SELECT MAX(daily_high), MIN(daily_low)
+        FROM daily_thresholds
+        WHERE DATE(date) BETWEEN %s AND %s
     """, (monday, sunday))
     result = cur.fetchone()
 
     if result and result[0] is not None:
+        weekly_high, weekly_low = result
+
+        # Hardcoded threshold values
+        HARDCODED_MAX = 10
+        HARDCODED_MIN = 40
+
+        # Compare with hardcoded values
+        if weekly_high > HARDCODED_MAX:
+            logging.warning(f"🚨 Weekly high ({weekly_high}) exceeded hardcoded max ({HARDCODED_MAX})")
+
+        if weekly_low < HARDCODED_MIN:
+            logging.warning(f"🚨 Weekly low ({weekly_low}) fell below hardcoded min ({HARDCODED_MIN})")
+
         cur.execute("""
             INSERT INTO weekly_thresholds (week_start, week_end, weekly_high, weekly_low)
             VALUES (%s, %s, %s, %s)
-        """, (monday, sunday, *result))
+        """, (monday, sunday, weekly_high, weekly_low))
         conn.commit()
         logging.info(f"✅ Inserted weekly threshold for week {monday} to {sunday}")
 
@@ -136,39 +192,40 @@ def main():
     options.add_argument("--start-maximized")
     service = Service()
 
-    # Open Chrome once and keep session alive
-    driver = webdriver.Chrome( options=options)
+    driver = webdriver.Chrome(options=options)
 
     try:
         driver.get("https://analytics.google.com/analytics/web/#/p399777971/realtime/overview")
         logging.info("🌐 GA4 Realtime URL opened. Waiting 60 seconds for manual login...")
-        time.sleep(60)  # Manual login
+        time.sleep(60)  # Wait for manual login
 
         while True:
             user_count = fetch_user_count(driver)
             if user_count is not None:
                 insert_into_db(user_count)
+                check_thresholds()  # ✅ Check alert thresholds right after data insert
+
                 now = datetime.now()
 
-# Daily threshold
                 if last_daily_check is None or last_daily_check != now.date():
                     calculate_daily_threshold()
                     last_daily_check = now.date()
 
-# Weekly threshold (only on Mondays)
                 if now.weekday() == 0 and (last_weekly_check is None or last_weekly_check != now.isocalendar()[1]):
                     calculate_weekly_threshold()
                     last_weekly_check = now.isocalendar()[1]
-
             else:
                 logging.warning("⚠️ Could not fetch user count.")
+
             logging.info("⏳ Sleeping for 5 minutes...")
-            time.sleep(300)  # Sleep 5 minutes
+            time.sleep(300)
+
     except Exception as e:
         logging.error(f"❌ Script crashed: {e}")
     finally:
         driver.quit()
         logging.info("🔴 Browser closed. Monitoring stopped.")
+
 
 if __name__ == "__main__":
     main()

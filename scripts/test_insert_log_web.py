@@ -10,7 +10,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import psycopg2
 from datetime import datetime, timedelta
 
-
 # Load environment variables
 load_dotenv(dotenv_path='config/.env')
 
@@ -33,14 +32,13 @@ def connect_db():
 def fetch_user_count(driver):
     try:
         wait = WebDriverWait(driver, 30)
-        # Updated XPath based on working element from Chrome DevTools
         xpath = "//div[contains(., 'Active users in last 30 minutes')]/following-sibling::div[contains(@class, 'counter')]"
         element = wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
         user_count = int(element.text.strip().replace(',', ''))
         logging.info(f"✅ Extracted user count: {user_count}")
         return user_count
     except Exception as e:
-        driver.save_screenshot("logs/fetch_user_count_error.png")  # Screenshot for debugging
+        driver.save_screenshot("logs/fetch_user_count_error.png")
         logging.error(f"❌ Failed to extract user count: {e}")
         return None
 
@@ -64,7 +62,6 @@ def calculate_daily_threshold():
     cur = conn.cursor()
     today = datetime.now().date()
 
-    # Skip if already inserted
     cur.execute("SELECT 1 FROM daily_thresholds WHERE date = %s", (today,))
     if cur.fetchone():
         cur.close()
@@ -72,10 +69,7 @@ def calculate_daily_threshold():
         return
 
     cur.execute("""
-        SELECT 
-            MAX(active_users),
-            MIN(active_users),
-            AVG(active_users)
+        SELECT MAX(active_users), MIN(active_users), AVG(active_users)
         FROM user_activity_log
         WHERE DATE(timestamp) = %s
     """, (today,))
@@ -94,12 +88,10 @@ def calculate_daily_threshold():
 def calculate_weekly_threshold():
     conn = connect_db()
     cur = conn.cursor()
-
     today = datetime.now().date()
     monday = today - timedelta(days=today.weekday())
     sunday = monday + timedelta(days=6)
 
-    # Skip if already inserted
     cur.execute("SELECT 1 FROM weekly_thresholds WHERE week_start = %s", (monday,))
     if cur.fetchone():
         cur.close()
@@ -120,29 +112,28 @@ def calculate_weekly_threshold():
         """, (monday, sunday, *result))
         conn.commit()
         logging.info(f"✅ Inserted weekly threshold for week {monday} to {sunday}")
-
     cur.close()
     conn.close()
-
-
 
 def main():
     last_daily_check = None
     last_weekly_check = None
 
-    logging.info("🟢 Starting continuous GA4 monitoring...")
+    logging.info("🟢 Starting GA4 monitoring using Chrome user profile...")
 
     options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
-    service = Service()
 
-    # Open Chrome once and keep session alive
-    driver = webdriver.Chrome( options=options)
+    # 👉 Reuse your logged-in Chrome user profile (Profile 3)
+    options.add_argument(r"user-data-dir=C:\Users\Maheen.khan\AppData\Local\Google\Chrome\User Data")
+    options.add_argument("profile-directory=Profile 1")
+    options.add_argument("--start-maximized")
+
+    service = Service('./chromedriver.exe')  # Make sure path is correct
+    driver = webdriver.Chrome(service=service, options=options)
 
     try:
         driver.get("https://analytics.google.com/analytics/web/#/p399777971/realtime/overview")
-        logging.info("🌐 GA4 Realtime URL opened. Waiting 60 seconds for manual login...")
-        time.sleep(60)  # Manual login
+        logging.info("🌐 GA4 page loaded using saved Chrome profile...")
 
         while True:
             user_count = fetch_user_count(driver)
@@ -150,18 +141,16 @@ def main():
                 insert_into_db(user_count)
                 now = datetime.now()
 
-# Daily threshold
                 if last_daily_check is None or last_daily_check != now.date():
                     calculate_daily_threshold()
                     last_daily_check = now.date()
 
-# Weekly threshold (only on Mondays)
                 if now.weekday() == 0 and (last_weekly_check is None or last_weekly_check != now.isocalendar()[1]):
                     calculate_weekly_threshold()
                     last_weekly_check = now.isocalendar()[1]
-
             else:
                 logging.warning("⚠️ Could not fetch user count.")
+
             logging.info("⏳ Sleeping for 5 minutes...")
             time.sleep(300)  # Sleep 5 minutes
     except Exception as e:
@@ -172,4 +161,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
